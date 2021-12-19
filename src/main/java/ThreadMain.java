@@ -3,7 +3,12 @@ public class ThreadMain {
 
     public static void main(String[] args) throws InterruptedException {
 
-        long startTime = System.currentTimeMillis();;
+        /*
+         * class to call CSV processors using threads
+         * */
+
+        long startTime = System.currentTimeMillis();
+        ;
         ThreadExample myThread = new ThreadExample(smallFile, 1);
         ThreadExample myThread1 = new ThreadExample(smallFile, 2);
         ThreadExample myThread2 = new ThreadExample(smallFile, 3);

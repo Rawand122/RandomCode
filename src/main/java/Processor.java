@@ -6,9 +6,13 @@ import java.util.Scanner;
 
 public class Processor {
 
+    /*
+     * class to process a CSV file in a number of different ways
+     * */
+
+
     public static void CSVReaderScanner(String fileName) {
         //read file using scanner
-
 
         try {
             Scanner sc = new Scanner(new File(fileName));

@@ -1,5 +1,7 @@
 public class ThreadExample extends Thread {
-    //Class to experiment with threads in java
+    /*
+     * class to call CSV processors instead thread
+     * */
 
     private String name;
     private int number;
